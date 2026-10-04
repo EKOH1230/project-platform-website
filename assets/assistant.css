@@ -3,7 +3,7 @@
 .assistant-launcher{display:flex;align-items:center;gap:9px;border:1px solid #67e1e4;border-radius:999px;background:#0b314b;color:#fff;padding:12px 17px;box-shadow:0 12px 35px rgba(5,25,43,.28);font-weight:800}
 .assistant-launcher:hover{background:#124a64}
 .assistant-launcher-icon{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#67e1e4;color:#0b314b;font-size:19px}
-.assistant-panel{position:absolute;right:0;bottom:calc(100% + 12px);display:grid;grid-template-rows:auto minmax(150px,1fr) auto auto;width:min(420px,calc(100vw - 24px));height:min(590px,calc(100dvh - 110px));overflow:hidden;border:1px solid #b9d0d9;border-radius:16px;background:#fff;box-shadow:0 24px 70px rgba(5,25,43,.3)}
+.assistant-panel{position:absolute;right:0;bottom:calc(100% + 12px);display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;width:min(420px,calc(100vw - 24px));height:min(590px,calc(100dvh - 110px));overflow:hidden;border:1px solid #b9d0d9;border-radius:16px;background:#fff;box-shadow:0 24px 70px rgba(5,25,43,.3)}
 .assistant-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;background:#0a2940;color:#fff}
 .assistant-head strong,.assistant-head span{display:block}
 .assistant-head strong{font-size:1rem}

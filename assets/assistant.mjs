@@ -2,7 +2,7 @@ import { answerQuestion } from './assistant-core.mjs';
 
 const stylesheet = document.createElement('link');
 stylesheet.rel = 'stylesheet';
-stylesheet.href = new URL('./assistant.css', import.meta.url).href;
+stylesheet.href = new URL('./assistant.css?v=assistant2', import.meta.url).href;
 document.head.append(stylesheet);
 
 const root = document.createElement('div');

@@ -52,5 +52,5 @@ if(form){
 }
 const assistantScript=document.createElement("script");
 assistantScript.type="module";
-assistantScript.src="assets/assistant.mjs";
+assistantScript.src="assets/assistant.mjs?v=assistant2";
 document.head.append(assistantScript);
