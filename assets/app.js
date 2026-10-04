@@ -50,3 +50,7 @@ if(form){
   });
   form.addEventListener("reset",()=>{result.classList.remove("open");draft.textContent="";status.textContent="";});
 }
+const assistantScript=document.createElement("script");
+assistantScript.type="module";
+assistantScript.src="assets/assistant.mjs";
+document.head.append(assistantScript);
